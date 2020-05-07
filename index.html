@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HomeSearch</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="images/favicon.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+	</head>
+<body>
+<!--	Title-->
+	
+	<div class="maincontainer">
+		
+		 
+	
+		<header>
+			<a href="index.html"> 
+		<img id="logo" src="images/Logo_Final.png" alt="HomeSearch logo">
+		
+			</a>
+			<menu>
+				<ul> 
+					<a href = "About.html"> <li> ABOUT </li> </a>
+					<a href = "ContactUs.html"> <li> CONTACT US </li> </a>
+					<a href = "PostProperty.html"> <li> POST PROPERTY </li> </a>
+					<div class="dropdown">
+  					<button class="dropbtn">REGISTER</button>
+  					<div class="dropdown-content">
+    						<a href="#">SIGN IN</a>
+							<a href="#">SIGN UP</a>
+						</div>
+					</div>
+					
+				</ul>
+			
+			</menu>
+		
+		</header>
+		
+		
+<!--		Banner-->
+		<section id="banner">   
+	   
+	<div class="imagecontainer" >   
+		 
+		 <img class="headerimage" src="images/Home image.jpg" alt=" home image">
+		
+			
+		
+		</div>
+			  
+		<input type="text1" placeholder="Search..">
+		
+		<input type="submit1" placeholder="SUBMIT">
+				
+		
+		<div class="flexcontainer">
+			
+		<div> 
+			<a href= "Blog.html"> 
+			<img src="images/iconfinder_tools_298880.png" alt="blog tips">
+			<p> TOOLS AND TIPS </p>		
+				</a>
+		</div><!--overlaybox1-->
+		
+		<div>
+			<a href="ContactUs.html">
+			
+			<img src="images/iconfinder_ic_contact_mail_48px_3669372.png" alt="hire a personal assistant">
+			<p> PERSONAL ASSISTANT </p>
+		</a>
+		</div>
+		
+		<div>
+			<a href="PostProperty.html">
+			
+			<img src="images/iconfinder_Speaker_3387289.png" alt=" advertise with us">
+			<p> ADVERTISE WITH US </p>		
+		</a>
+		</div>
+		
+		
+		
+		</div>
+			</section>
+		
+		<div class="NextSec">
+		
+		<h2> FEATURED PROPERTY</h2>
+		<div class="row">  
+			
+		<div class="featuredproperty">
+			
+			
+		<a href="Featured Property.html">   
+			<img src="images/8abfb4a3d89bb5511b6d854ed30074e1.jpg" alt="property1">
+			
+		
+			</a>
+			
+			<a href="Featured Property.html">   
+			<img src= "images/0183986_a-luxurious-apartment-building-for-sale.jpeg" alt="property2">
+			</a>
+			
+			<a href= "Featured Property.html">   
+			<img src= "images/the-cove_1200xx3626-2043-0-137.jpg" alt="property3">
+			</a>
+			
+			<a href="Featured Property.html">   
+			<img src= "images/build.jpg" alt="property4">
+			</a>
+			
+			
+
+		
+		
+		</div>
+			</div>
+			</div>
+		
+
+	<h2> WHY US </h2>
+		<div class="WhyUs">
+			
+		
+			<a href="#">
+			<img src= "images/Bangalore1.png" alt="Bangalore flats">
+			</a>
+			
+			<a href="#">
+			<img src= "images/Chennai1.png" alt="Chennai flats">
+			</a>
+			
+				<a href="#">
+			<img src= "images/Mumbai1.png" alt="Mumbai flats">
+			</a>
+		
+		
+		</div>
+		
+		
+		
+	<div class=" testimonials">
+		<h2> TESTIMONIALS </h2>
+		
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="text"> "Buying from home search was a great experience. Everything was seamless and quick with no hassels." </div>
+   <em>  Mr Agarwal, Pune </em> 
+	
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="text"> "A very professional real estate agency in Chennai with good selection of places. More importantly, they spend time with the client to show variety of options."</div>
+	 <em>  Mrs Shetty, Chennai </em> 
+</div>
+
+<div class="mySlides fade">
+  <div class="text">"They are one of a kind, professional real estate consultants – dependable, hard working and always cheerful to give various options."</div>
+	 <em>  Mr Shinde, Mumbai </em> 
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+		
+		</div>
+	
+		<footer>
+		<ul>
+			<a href = "sitemap.html"> <li> Sitemap </li> </a>
+			<a href = "#"> <li> T&C-Privacy </li> </a>
+			<a href = "Blog.html"> <li> Blog </li> </a>
+			<a href = "#"> <li> Help </li> </a>
+			</ul>
+		
+		</footer>
+	
+		
+
+		
+	 </div><!--maincontainer-->
+		
+	
+	
+	
+	
+	</body>
+</html>

@@ -1,0 +1,644 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+font-family:'Open Sans', sans-serif;
+	overflow-x: hidden;
+	
+}
+
+.maincontainer
+{
+	width: 100%;
+	margin: 0 auto;
+	
+	
+}
+
+
+header{
+	width: 100%;
+	display: inline-block;
+	
+}
+#logo {
+	width: 42px;
+	height: 81px;
+	margin: 0 auto;
+	display: inline-block;
+	
+		
+}
+menu
+{ width: 38%;
+	padding-left: 57%;
+	
+	position: absolute;
+	
+	display: inline-block;
+	
+	
+}
+
+menu ul li {
+	float: left;
+	margin: 20px;
+	padding-left: 10px;
+	color:#DE433C;
+	font-size: 15px;
+}
+
+ul a :hover {
+	 color: #3cdeff;
+}
+ul {
+	list-style-type: none;
+}
+
+#banner {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+}
+
+.imagecontainer {
+width: 100%;
+background: #DE433C;
+opacity: 0.5;
+height: 700px;
+	margin: 0 0 20px;
+	
+	overflow: hidden;
+}
+	
+.search-bar {
+	width: 100%;
+	margin: 0 auto;
+}
+	input[type=text1] 
+{
+  float: left;
+padding: 6px;
+font-size: 17px;
+border: 1px solid #ccc;
+position: absolute;
+top: 350px;
+left: 225px;
+width: 50%;
+	margin: 2% auto;
+				
+		
+}
+input[type=submit1] {
+  background-color: #3CDEFF;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	position: absolute;
+	top: 375px;
+	right: 280px;
+	text-align: center;
+}
+
+/* When moving the mouse over the submit button, add a red color */
+input[type=submit1]:hover {
+  background-color: #DE433C;
+}
+.div:after { 
+	content: "";
+		clear:both;
+}
+.headerimage{
+	width: 100% ;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+	
+	
+	
+}
+
+.NextSec{
+	width:100%;
+	
+}
+.buttongrp {
+	
+}
+.flexcontainer {
+	display: flex;
+	flex-flow: row wrap;
+	position: absolute;
+	top: 590px;
+	width: 100%;
+}
+
+.flexcontainer div {
+	width: 20%;
+	background-color:#3cdeff;
+	margin: auto 5%;
+	border-radius: 25px;
+	padding: 23px;
+
+}
+
+.flexcontainer div p {
+	
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 auto 50px;
+	
+}
+.flexcontainer a {
+	text-decoration: none;
+}
+
+.flexcontainer a :hover {
+	color: #DE433C;
+}
+
+.flexcontainer div img {
+	width: 90px;
+	padding:10%;
+	
+
+
+}
+
+.flexcontainer div:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.row {
+	    width: 100%;
+ 
+   
+}
+
+.row .featuredproperty {
+	margin: 2% 0 2% 2%;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 2% 0 2% 2%;
+	
+}
+	
+		
+
+ h2 {
+	text-align: center;
+	color:#DE433C;
+	font-stretch: expanded;
+	font-size: 46px;
+	 font-family: 'Roboto', sans-serif;
+	 padding: 2%;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+.featuredproperty img {
+	width: 200px;
+	border: 1px solid #DE433C;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 1rem 4rem;
+	height: 200px;
+	position: relative;
+	
+	
+}
+
+.featuredproperty img:hover{
+	
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.WhyUs {
+	
+	margin: 2% auto;
+	padding: 2% 7%;
+	display: flex;
+	flex-flow: row wrap;
+}
+	
+
+.WhyUs img {
+	width: 400px;
+	margin: 2% 8%;
+	
+	
+}
+
+.testimonials {
+	width: 100%;
+	
+}
+
+
+footer{
+	width: 100%;
+	
+}
+footer ul li {
+	float: left;
+	text-decoration: none;
+	margin: 50px;
+	
+	color:#DE433C;
+	font-size: 15px;
+}
+
+.AboutUs {
+	text-align: justify;
+	padding: 80px;
+}
+
+#Blog-container {
+
+	margin: 2% auto;
+	width: 100%;
+}
+
+.blogcolumn a {
+	color: #DE433C;
+}
+
+.blogcolumn a:hover {
+	color: rgba(7,7,7,1.00);
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical   /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical   /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=number], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical   /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #3CDEFF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a red color */
+input[type=submit]:hover {
+  background-color: #DE433C;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.formcontainer {
+line-height: inherit;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	margin: 20px auto;
+	max-width: 50%;
+	
+}
+
+.blogcolumn {
+	width: 40%;
+	float: left;
+	padding: 20px;
+}
+
+.blogcolumn img {
+	width: 200px;
+	border-radius: 35%;
+	
+}
+.blogrow {
+	background-color:#DEF5FA;
+	width: 1200px;
+	margin: 2% auto;
+	
+}
+.blogrow:after {
+  content: "";
+  display: table;
+	clear: both; 
+}
+
+.post-prop-img {
+	width: 100%;
+	position: relative;
+	
+}
+
+.prop-img {
+	width: 50%;
+    margin: 2%;
+    display: inline-block;
+    position: absolute;
+    right: 1px;
+    top: 403px;
+    opacity: 50%;
+    border-radius: 10%;
+}
+.PostProp{
+	width: 50%;
+	line-height: inherit;
+	margin: 2%;
+	padding: 2%;
+	
+
+}
+
+.PostProp ol{
+	    font-size: 15px;
+    margin-left: 13%;
+    padding: 2%;
+    line-height: 1.5;
+	
+}
+
+.PostProp h3 {
+	padding-left:10%;
+}
+
+.PostProp form {
+	width: 50%;
+	background-color:#F2F2F2;
+	
+	padding:5%;
+	border-radius: 2%;
+}
+
+input[type=radio]
+{
+	border: 1px solid red;
+	margin-left: 40px;
+}
+
+.dropbtn {
+	
+  background-color: #DE433C;
+  color: white;
+  padding: 8px;
+  font-size: 13px;
+  border: none;
+	border-radius: 4px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+	margin-top: 12px;
+}
+
+.dropdown-content {
+  display: none;
+position: absolute;
+background-color: #DE433C;
+min-width: 88px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #3CDEFF;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #DE433C;}
+
+.property {
+	width: 96%;
+	
+	margin: 20px;
+}
+.property img {
+	width: 550px;
+	
+}
+
+.propertycolimg {
+	width: 50%;
+	float: left;
+}
+.propertycol {
+	width: 37%;
+
+float: left;
+
+margin: 30px;
+
+padding: 38px;
+
+}
+
+
+.site-map a {
+	text-decoration: none;
+	color: #DE433C;
+	padding: 20px;
+	
+}
+.sitemap {
+	
+	border: dotted #D6D5D5;
+	width: 100%;
+	border-radius:1%;
+	
+	
+}
+.site-map {
+margin: 2% auto;
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+}
+
+.sitemap-right {
+	width: 49%;
+    display: inline-block;
+    
+    padding: 0 0 2%;
+	text-align: center;
+}
+.sitemap-right a {
+	text-decoration: none;
+	color: #DE433C;
+	
+}
+
+.sitemap-right li {
+	padding: 0 0 25%;	
+}
+
+ul .bullet {
+	display: inline-block;
+	padding: 2px;
+	font-size: 14px;
+	
+}
+
+.sitemap h3 {
+	text-align: center;
+}
+
+.sitemap h3 a {
+	text-align: center;
+	text-decoration: none;
+	color: #DE433C;
+}
+.sitemap h3 a:hover { 
+color: #3cdeff;
+ }
+
+
+
+
+
+/*{box-sizing: border-box}*/
+
+.mySlides {
+	display: none;
+	width: 70%;
+	margin: 5% auto;
+	
+	padding-top: 15%;
+	background-color:#FEFEFE;
+	text-align: center;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+	 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:rgba(238,238,238,1.00);
+}
+
+em {
+color: #DE433C;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+padding: 10px;
+margin-top: 40px;
+	
+}
+/* description text */
+.text {
+color: #3CDEFF;
+font-size: 15px;
+
+position: absolute;
+width: 70%;
+text-align: center;
+top: 49px;
+margin: 15px auto;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
